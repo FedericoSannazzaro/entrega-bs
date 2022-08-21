@@ -25,6 +25,19 @@
     flex-wrap: wrap;
 }
 
+.accordion-button{
+    color: black;
+}
+
+.accordion-button:focus{
+    color: black;
+    background-color: aquamarine;
+}
+
+.imgFaqs{
+    margin: 20px;
+}
+
 footer .d-flex {
     display: flex!important;
     justify-content: flex-end;
