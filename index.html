@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg bg-light fondoColor" >
             <div class="container-fluid">
                 <!-- LOGO NAVBAR -->
                 <a class="navbar-brand" href="/index.html"><img src="https://dummyimage.com/50x50/000/fff.png"
@@ -41,64 +41,68 @@
         </nav>
     </header>
     <!-- CARROUSEL -->
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
-                aria-label="Slide 4"></button>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
 
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://dummyimage.com/1500X500/000/fff.png" class="d-block w-100" alt="img-carrousel">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Imagen Uno</h5>
+                        <p>Descripcion de la imagen.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://dummyimage.com/1500X500/0011ff/.png" class="d-block w-100" alt="img-carrousel">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Imagen Dos</h5>
+                        <p>Descripcion de la imagen.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://dummyimage.com/1500X500/000/fff.png" class="d-block w-100" alt="img-carrousel">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Imagen Tres</h5>
+                        <p>Descripcion de la imagen.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://dummyimage.com/1500X500/0011ff.png" class="d-block w-100" alt="img-carrousel">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Imagen Cuatro</h5>
+                        <p>Descripcion de la imagen.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="https://dummyimage.com/1500X500/000/fff.png" class="d-block w-100" alt="img-carrousel">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Imagen Uno</h5>
-                    <p>Descripcion de la imagen.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="https://dummyimage.com/1500X500/0011ff/.png" class="d-block w-100" alt="img-carrousel">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Imagen Dos</h5>
-                    <p>Descripcion de la imagen.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="https://dummyimage.com/1500X500/000/fff.png" class="d-block w-100" alt="img-carrousel">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Imagen Tres</h5>
-                    <p>Descripcion de la imagen.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="https://dummyimage.com/1500X500/0011ff.png" class="d-block w-100" alt="img-carrousel">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Imagen Cuatro</h5>
-                    <p>Descripcion de la imagen.</p>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-
-    <h1>Inicio</h1>
-
-    <footer>
-        <div class="container-fluid bg-light text-center p-3 d-flex">
+        <main class="fondoBody">
+            <h1>Inicio</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ipsam sapiente consequatur quam perspiciatis. Cum enim reprehenderit corrupti, maxime delectus temporibus! Illo atque quos id porro, neque pariatur aut nesciunt libero tenetur voluptas doloremque repellendus earum quod vero delectus mollitia accusamus fuga, ipsum consequatur minima expedita eveniet a. Molestias ullam dolorum atque. Ullam fugit necessitatibus aut repudiandae ut ad voluptate impedit incidunt tempora saepe iste non, distinctio ab blanditiis ipsum minus aperiam ducimus provident sapiente. Recusandae dolore amet eaque sequi placeat ab atque dignissimos obcaecati distinctio, error, quaerat modi quo maiores nostrum iure laboriosam harum odit voluptatibus cum, inventore suscipit alias fugiat. Neque aperiam adipisci distinctio. Repudiandae ab possimus vel perferendis adipisci consectetur nesciunt reprehenderit fugiat dolorem voluptate eaque a ipsum alias earum, dicta tempore quos doloremque ducimus quas doloribus soluta? Voluptates eum pariatur corrupti error numquam porro? Eum, expedita? Asperiores molestias voluptas provident repudiandae ipsum saepe nesciunt illum laborum.</p>
+            <div class="container-fluid imgBody">
+                <img src="https://dummyimage.com/450x400/000/fff.png" alt="imagen body">
+            </div>    
+        </main>
+       <footer>
+        <div class="container-fluid bg-light text-center p-3 d-flex fondoColor">
             <p>Aca va el footer</p>
             <li><img src="https://dummyimage.com/50/50/0011ff.png" alt=""></li>
             <li><img src="https://dummyimage.com/50/50/0011ff.png" alt=""></li>

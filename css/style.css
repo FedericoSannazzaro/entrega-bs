@@ -1,7 +1,28 @@
 *{
     margin: 0;
-    box-sizing: border-box;
-    padding: 0;
+        padding: 0;
+}
+
+.fondoColor{
+    background-color: aquamarine !important;
+    
+}
+
+.fondoBody{
+    /* height: 90vh; */
+    text-align: center;
+    padding-top: 20px;
+}
+
+.imgBody{
+    margin: 10px;
+}
+
+.cards{
+    display: flex!important;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 footer .d-flex {
